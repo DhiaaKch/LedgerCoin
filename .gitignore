@@ -1,0 +1,26 @@
+# Dependencies and generated frontend output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Hardhat-generated files and deployment state
+**/artifacts/
+**/cache/
+**/coverage/
+**/types/
+**/ignition/deployments/
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/*.local
+
+# Local agent and editor configuration
+/contracts-app/.agents/
+/contracts-app/.claude/
+/contracts-app/AGENTS.md
+/contracts-app/CLAUDE.md
+.vscode/
+.idea/
+.DS_Store
